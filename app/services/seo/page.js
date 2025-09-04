@@ -49,7 +49,7 @@ export default function ServiceDetails() {
 
             <Layout headerStyle={1} footerStyle={1}>
 
-                <section className="py-120 rpy-80">
+                <section className="py-120 rpy-80 seo-hero">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7">
@@ -101,6 +101,7 @@ export default function ServiceDetails() {
                 </div>
                 {/* Service Counter Area end */}
                 <style jsx>{`
+                    .seo-hero h1 { font-size: clamp(28px, 6vw, 64px); line-height: 1.15; }
                     .service-counter-area .counter-item {
                         min-height: 140px;
                         padding: 25px 20px;

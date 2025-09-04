@@ -50,7 +50,7 @@ export default function ServiceDetails() {
 
             <Layout headerStyle={1} footerStyle={1}>
 
-                <section className="py-120 rpy-80 ppc-hero">
+                <section className="py-120 rpy-80 ppc-hero" style={{ minHeight: '100vh' }}>
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7">
@@ -123,6 +123,7 @@ export default function ServiceDetails() {
                 </div>
                 {/* Service Counter Area end */}
                 <style jsx>{`
+                    .ppc-hero h1 { font-size: clamp(28px, 6vw, 64px); line-height: 1.15; }
                     .ppc-visual { position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.25); }
                     .ppc-visual img { width: 100%; height: auto; display: block; }
                     @media (min-width: 992px) { .ppc-visual { transform: scale(1.06); } }

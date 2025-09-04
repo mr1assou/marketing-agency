@@ -2,12 +2,16 @@
 
 
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Hero2() {
     return (
         <>
             <section className="hero-area-two pt-200 rpt-150 pb-90 rel z-1" style={{ minHeight: '100vh', width: '100vw', position: 'relative', overflow: 'hidden' }}>
-                <div className="hero-image-two" style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/images/hero/hero-main.png)', position: 'absolute', top: 0, left: 0, width: '100vw', height: '100vh', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} />
+                <div className="hero-image-two" style={{ position: 'absolute', inset: 0 }}>
+                    <Image src="/assets/images/hero/hero-main.png" alt="Hero Background" fill priority style={{ objectFit: 'cover' }} />
+                    <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))' }} />
+                </div>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-11">
@@ -32,9 +36,9 @@ export default function Hero2() {
                     <img src="/assets/images/hero/hero-shape-two.png" alt="Shape" />
                 </div>
                 <style jsx>{`
-                    .hero-image-two { background-position: center; }
-                    @media (max-width: 767px) {
-                        .hero-image-two { background-position: right center; }
+                    .hero-image-two :global(img) { filter: none; object-position: center; }
+                    @media (max-width: 991px) {
+                        .hero-image-two :global(img) { object-position: right center; }
                     }
                 `}</style>
             </section>
