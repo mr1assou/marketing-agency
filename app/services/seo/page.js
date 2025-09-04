@@ -102,6 +102,7 @@ export default function ServiceDetails() {
                 {/* Service Counter Area end */}
                 <style jsx>{`
                     .seo-hero h1 { font-size: clamp(28px, 6vw, 64px); line-height: 1.15; }
+                    @media (max-width: 991px) { .seo-hero h1, .seo-prod h1 { font-size: 32px; line-height: 1.25; } }
                     .service-counter-area .counter-item {
                         min-height: 140px;
                         padding: 25px 20px;

@@ -204,10 +204,9 @@ export default function About() {
                                         </div>
                                         <div className="description">
                                             <div className="title">
-                                                <h5>Alextina Ditarson</h5>
-                                                <span className="designation">creative director</span>
+                                                <h5>Anderson Silva</h5>
+                                                <span className="designation">CEO</span>
                                             </div>
-                                            <Link href="/team-details" className="details-btn"><i className="far fa-arrow-right" /></Link>
                                             <div className="social-media">
                                                 <Link href="#"><i className="fab fa-twitter" /></Link>
                                                 <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -224,10 +223,9 @@ export default function About() {
                                         </div>
                                         <div className="description">
                                             <div className="title">
-                                                <h5>Alextina Ditarson</h5>
-                                                <span className="designation">creative director</span>
+                                                <h5>Yoss Nick</h5>
+                                                <span className="designation">CTO</span>
                                             </div>
-                                            <Link href="/team-details" className="details-btn"><i className="far fa-arrow-right" /></Link>
                                             <div className="social-media">
                                                 <Link href="#"><i className="fab fa-twitter" /></Link>
                                                 <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -245,9 +243,8 @@ export default function About() {
                                         <div className="description">
                                             <div className="title">
                                                 <h5>Alextina Ditarson</h5>
-                                                <span className="designation">creative director</span>
+                                                <span className="designation">DESIGNER</span>
                                             </div>
-                                            <Link href="/team-details" className="details-btn"><i className="far fa-arrow-right" /></Link>
                                             <div className="social-media">
                                                 <Link href="#"><i className="fab fa-twitter" /></Link>
                                                 <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -264,10 +261,10 @@ export default function About() {
                                         </div>
                                         <div className="description">
                                             <div className="title">
-                                                <h5>Alextina Ditarson</h5>
-                                                <span className="designation">creative director</span>
+                                                <h5>LEILA POLI</h5>
+                                                <span className="designation">HR Manager</span>
                                             </div>
-                                            <Link href="/team-details" className="details-btn"><i className="far fa-arrow-right" /></Link>
+                                        
                                             <div className="social-media">
                                                 <Link href="#"><i className="fab fa-twitter" /></Link>
                                                 <Link href="#"><i className="fab fa-facebook-f" /></Link>
