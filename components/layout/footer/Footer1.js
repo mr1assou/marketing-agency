@@ -24,11 +24,11 @@ export default function Footer1() {
                             <div className="footer-widget widget-links wow fadeInUp delay-0-3s">
                                 <h6 className="footer-title">Our Links</h6>
                                 <ul>
-                                    <li><Link href="/services">Features</Link></li>
-                                    <li><Link href="/team">Team Member</Link></li>
-                                    <li><Link href="/contact">Our Careers</Link></li>
-                                    <li><Link href="/contact">Login Here</Link></li>
-                                    <li><Link href="/contact">Registered</Link></li>
+                                    <li><Link href="/">Home</Link></li>
+                                    <li><Link href="/about">About Us</Link></li>
+                                    <li><Link href="/services">Services</Link></li>
+                                    <li><Link href="/services/content">Content</Link></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -36,11 +36,11 @@ export default function Footer1() {
                             <div className="footer-widget widget-links wow fadeInUp delay-0-4s">
                                 <h6 className="footer-title">Find It Fast</h6>
                                 <ul>
-                                    <li><Link href="/index2">Home</Link></li>
-                                    <li><Link href="/services">Services</Link></li>
-                                    <li><Link href="/about">About Us</Link></li>
-                                    <li><Link href="/services">Features</Link></li>
-                                    <li><Link href="/contact">Contacts</Link></li>
+                                    <li><Link href="/services/ppc">Ppc</Link></li>
+                                    <li><Link href="/services/seo">Seo</Link></li>
+                                    <li><Link href="/services/social">Social</Link></li>
+                                    <li><Link href="/blog-v2">Social</Link></li>
+                                    <li><Link href="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
