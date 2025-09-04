@@ -275,9 +275,7 @@ export default function About() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="team-btn pt-30 text-center">
-                                <Link href="/team" className="theme-btn style-three">Meet with team</Link>
-                            </div>
+                        
                         </div>
                     </section>
                     {/* Team Area end */}
