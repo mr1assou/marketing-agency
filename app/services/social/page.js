@@ -73,7 +73,7 @@ export default function ServiceDetails() {
                     </div>
                 </section>
 
-                <section className="py-120 rpy-80">
+                <section className="py-120 rpy-80 social-prod">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7">
@@ -125,6 +125,7 @@ export default function ServiceDetails() {
                 {/* Service Counter Area end */}
                 <style jsx>{`
                     .social-hero h1 { font-size: clamp(28px, 6vw, 64px); line-height: 1.15; }
+                    @media (max-width: 991px) { .social-hero h1, .social-prod h1 { font-size: 32px; line-height: 1.25; } }
                     .service-counter-area .counter-item {
                         min-height: 140px;
                         padding: 25px 20px;
