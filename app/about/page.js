@@ -6,6 +6,7 @@ import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
 import dynamic from 'next/dynamic'
 import Link from "next/link"
+import Image from "next/image"
 const CounterUp = dynamic(() => import('@/components/elements/CounterUp'), {
     ssr: false,
 })
@@ -36,7 +37,7 @@ export default function About() {
                                 </div>
                                 <div className="col-lg-4 wow fadeInRight delay-0-2s">
                                     <div className="about-hero-image">
-                                        <img src="/assets/images/hero/ab.jpg" alt="Testimonials" />
+                                        <Image src="/assets/images/hero/ab.jpg" alt="Testimonials" width={1200} height={800} style={{ width: '100%', height: 'auto' }} />
                                     </div>
                                 </div>
                             </div>
